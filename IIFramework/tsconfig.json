@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "module": "amd",
+      "lib": [ "dom", "es5", "es2015.promise", "ES2015.Collection"],
+      "target": "es5",
+      "skipLibCheck": true,
+      "outFile": "./ii.js",
+      "declaration": true,
+      "sourceMap": false,
+      "removeComments": true,
+      "experimentalDecorators": true
+    },
+    "include": [
+      "src",
+      "lib"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+}
